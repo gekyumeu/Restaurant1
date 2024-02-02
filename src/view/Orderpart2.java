@@ -29,18 +29,18 @@ public class Orderpart2 extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
+        btn_or2_7 = new javax.swing.JButton();
+        btn_or2_8 = new javax.swing.JButton();
+        btn_or2_9 = new javax.swing.JButton();
+        btn_or2_4 = new javax.swing.JButton();
+        btn_or2_1 = new javax.swing.JButton();
+        btn_or2_0 = new javax.swing.JButton();
+        btn_or2_5 = new javax.swing.JButton();
+        btn_or2_6 = new javax.swing.JButton();
+        btn_or2_2 = new javax.swing.JButton();
+        btn_or2_3 = new javax.swing.JButton();
         jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
+        btn_or2_clear = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -96,41 +96,96 @@ public class Orderpart2 extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton20.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton20.setText("7");
+        btn_or2_7.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_7.setText("7");
+        btn_or2_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_7ActionPerformed(evt);
+            }
+        });
 
-        jButton21.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton21.setText("8");
+        btn_or2_8.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_8.setText("8");
+        btn_or2_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_8ActionPerformed(evt);
+            }
+        });
 
-        jButton22.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton22.setText("9");
+        btn_or2_9.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_9.setText("9");
+        btn_or2_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_9ActionPerformed(evt);
+            }
+        });
 
-        jButton23.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton23.setText("4");
+        btn_or2_4.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_4.setText("4");
+        btn_or2_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_4ActionPerformed(evt);
+            }
+        });
 
-        jButton28.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton28.setText("1");
+        btn_or2_1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_1.setText("1");
+        btn_or2_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_1ActionPerformed(evt);
+            }
+        });
 
-        jButton30.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton30.setText("0");
+        btn_or2_0.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_0.setText("0");
+        btn_or2_0.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_0ActionPerformed(evt);
+            }
+        });
 
-        jButton32.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton32.setText("5");
+        btn_or2_5.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_5.setText("5");
+        btn_or2_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_5ActionPerformed(evt);
+            }
+        });
 
-        jButton33.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton33.setText("6");
+        btn_or2_6.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_6.setText("6");
+        btn_or2_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_6ActionPerformed(evt);
+            }
+        });
 
-        jButton34.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton34.setText("2");
+        btn_or2_2.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_2.setText("2");
+        btn_or2_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_2ActionPerformed(evt);
+            }
+        });
 
-        jButton35.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton35.setText("3");
+        btn_or2_3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_3.setText("3");
+        btn_or2_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_3ActionPerformed(evt);
+            }
+        });
 
         jButton36.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jButton36.setText(".");
 
-        jButton37.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton37.setText("C");
+        btn_or2_clear.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        btn_or2_clear.setText("C");
+        btn_or2_clear.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_or2_clearActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -142,29 +197,29 @@ public class Orderpart2 extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btn_or2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(btn_or2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btn_or2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addComponent(btn_or2_8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton33, javax.swing.GroupLayout.DEFAULT_SIZE, 75, Short.MAX_VALUE)))
+                            .addComponent(btn_or2_9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btn_or2_6, javax.swing.GroupLayout.DEFAULT_SIZE, 75, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn_or2_0, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btn_or2_clear, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn_or2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn_or2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btn_or2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -172,24 +227,24 @@ public class Orderpart2 extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_or2_7, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_8, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_9, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_or2_4, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_6, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton28, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_or2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_3, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton30, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_or2_0, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_or2_clear, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -604,6 +659,182 @@ public class Orderpart2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_cb_or2_pmActionPerformed
 
+    private void btn_or2_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_7ActionPerformed
+        // TODO add your handling code here:
+        // Get the text from the text field
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("7");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "7";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_7ActionPerformed
+
+    private void btn_or2_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_4ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("4");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "4"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_4ActionPerformed
+
+    private void btn_or2_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_8ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("8");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "8"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_8ActionPerformed
+
+    private void btn_or2_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_9ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("9");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "9"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_9ActionPerformed
+
+    private void btn_or2_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_5ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("5");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "5"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_5ActionPerformed
+
+    private void btn_or2_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_6ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("6");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "6"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_6ActionPerformed
+
+    private void btn_or2_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_1ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("1");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "1"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_1ActionPerformed
+
+    private void btn_or2_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_2ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("2");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "2"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_2ActionPerformed
+
+    private void btn_or2_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_3ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("3");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "3"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_3ActionPerformed
+
+    private void btn_or2_clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_clearActionPerformed
+        // TODO add your handling code here:
+        tf_or2_cash.setText("");
+        tf_or2_change.setText("");
+    }//GEN-LAST:event_btn_or2_clearActionPerformed
+
+    private void btn_or2_0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_or2_0ActionPerformed
+        // TODO add your handling code here:
+        String enteredNumber = tf_or2_cash.getText();
+
+        // Check if the text field is empty
+        if(enteredNumber.isEmpty()) {
+            // If the text field is empty, set it to "7"
+            tf_or2_cash.setText("0");
+        }
+        else {
+            // If the text field is not empty, concatenate "7" to the existing text
+            enteredNumber = enteredNumber + "0"
+                    + "";
+            tf_or2_cash.setText(enteredNumber);
+        }
+    }//GEN-LAST:event_btn_or2_0ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -640,6 +871,17 @@ public class Orderpart2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_or2_0;
+    private javax.swing.JButton btn_or2_1;
+    private javax.swing.JButton btn_or2_2;
+    private javax.swing.JButton btn_or2_3;
+    private javax.swing.JButton btn_or2_4;
+    private javax.swing.JButton btn_or2_5;
+    private javax.swing.JButton btn_or2_6;
+    private javax.swing.JButton btn_or2_7;
+    private javax.swing.JButton btn_or2_8;
+    private javax.swing.JButton btn_or2_9;
+    private javax.swing.JButton btn_or2_clear;
     private javax.swing.JButton btn_or2_edit;
     private javax.swing.JButton btn_or2_pay;
     private javax.swing.JButton btn_or2_print;
@@ -650,19 +892,8 @@ public class Orderpart2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
