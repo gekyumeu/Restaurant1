@@ -44,6 +44,7 @@ public class Login extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         pf_log_pword = new javax.swing.JPasswordField();
         btn_log_login = new javax.swing.JButton();
+        jLabel23 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -136,6 +137,11 @@ public class Login extends javax.swing.JFrame {
         });
         jPanel2.add(btn_log_login);
         btn_log_login.setBounds(60, 400, 120, 32);
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        jLabel23.setText("tite");
+        jPanel2.add(jLabel23);
+        jLabel23.setBounds(180, 140, 70, 50);
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 51, 255));
@@ -408,6 +414,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
